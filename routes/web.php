@@ -16,12 +16,13 @@ Route::get('/', function () {
 });
 
 Route::get('/pizzas', function () {
-    $pizza_data = [
-        'name' => "veg pizza" ,
-        "base" => "classic",
-        "price" => 150,
-    ];
-    return view('pizzas' , $pizza_data);
+    //get data from db
+    $pizzas = [
+    ['type' => 'hawaiian', 'base' => 'cheesy crust'],
+    ['type' => 'volcano', 'base' => 'garlic crust'],
+    ['type' => 'veg supreme', 'base' => 'thin & crispy']
+  ];
+    return view('pizzas', ['pizzas' => $pizzas]);
     // return 'Pizzas';
     // return ['name' => "veg pizza" , "base" => "classic"];
 });
