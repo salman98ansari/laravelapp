@@ -17,8 +17,9 @@
         @endif
 
         <div class="content">
+            <img src="/img/pizza-house.png" alt="pizza house logo">
             <div class="title m-b-md">
-                Salman Ansari
+                Pizza Store
             </div>
 
             <!-- <div class="links">
