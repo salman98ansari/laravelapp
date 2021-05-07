@@ -33,3 +33,8 @@ Route::get('/pizzas', function () {
     // return 'Pizzas';
     // return ['name' => "veg pizza" , "base" => "classic"];
 });
+
+Route::get('/pizzas/{id}', function ($id) {
+  //use the $id varable to search into the db
+  return view('details', ['id'=> $id]);
+});
