@@ -21,6 +21,8 @@
             <div class="title m-b-md">
                 Pizza Store
             </div>
+            <p class="msg">{{session('msg')}}</p>
+            <a href="/pizzas/create">Order a Pizza</a>
 
             <!-- <div class="links">
                 <a href="https://laravel.com/docs">Docs</a>
