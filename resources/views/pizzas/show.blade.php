@@ -1,4 +1,4 @@
-@extends('layout.layout')
+@extends('layouts.app')
 
 @section('content')
 <div class="wrapper pizza-details">
@@ -17,7 +17,10 @@
         <button>Complete Order</button>
     </form>
 </div>
-<a href="/pizzas">->Back to all pizzas</a>
+<div>
+    <a href="/pizzas" class="back">->Back to all pizzas</a>
+</div>
+
 
 @endsection
         
