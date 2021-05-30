@@ -21,6 +21,14 @@
         <option value="cheese crust">Cheese Crust</option>
         <option value="garlic crust">Garlic Crust</option>
       </select>
+      <fieldset>
+        <label for="">Extra Toppings</label>
+        <input type="checkbox" name="toppings[]" value="Mushrooms">Mushrooms <br/>
+        <input type="checkbox" name="toppings[]" value="Onion">Onion <br/>
+        <input type="checkbox" name="toppings[]" value="Corn">Corn <br/>
+        <input type="checkbox" name="toppings[]" value="Mixed">Mixed <br/>
+
+      </fieldset>
       <input type="submit" value="Order Pizza">
     </form>
 </div>
